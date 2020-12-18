@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" href="asset/img/icondoto.ico" type="image/x-icon">
+  <title>Pick Your Hero</title>
+</head>
+<body>
+  <!-- Home -->
+  <div class="halaman" id="home">
+    <h1 id="header-main">WELCOME HERE!</h1>
+  
+    <div id="nick-form">
+      <div>
+        <label for="nick" id="nick-label" style="font-size: 30px;">Nickname</label>
+        <br>
+        <input type="text" id="nick" name="nick" style="margin-top:10px ;">
+      </div>
+
+      <div id="button-start">
+        <button >Start!</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Pertanyaan -->
+  <div class="halaman" id="pertanyaan">
+    <h2 id="judul-soal">Pertanyaan</h2>
+
+
+    <div id="boxSoal">
+      <p id="text-pertanyaan">1. Posisi kesukaan kalian:</p>
+      <div id="div-pilihan">
+        <div class="pilihan">
+          <input type="radio" id="jawabanA" name="jawaban" value="jawabanA">
+          <label for="jawabanA">A. Mid Lane</label> <br>
+        </div>
+        <div class="pilihan">
+          <input type="radio" id="jawabanB" name="jawaban" value="jawabanB">
+          <label for="jawabanB">B. Safe Lane</label> <br>
+        </div>
+        <div class="pilihan">
+          <input type="radio" id="jawabanC" name="jawaban" value="jawabanC">
+          <label for="jawabanC">C. Off Lane</label>
+        </div>
+      </div>
+    </div>
+    <div id="button-next">
+      <button>Next</button>
+    </div>
+  </div>
+
+  <!-- Hasil -->
+
+  <div class="halaman" id="hasil">
+    <h1 id="judul-hasil">Inilah hasil kalian</h1>
+
+    <img id="image-hasil" src="asset/img/int/CM.png" alt="CM" />
+
+    <h3 id="text-hasil">Selamat Namamu! Kamu telah menemukan NamaHero</h3>
+
+    <div id="button-back-to-home">
+      <button>Back To Home</button>
+    </div>
+  </div>
+
+  <script src="./script.js"></script>
+</body>
+</html>

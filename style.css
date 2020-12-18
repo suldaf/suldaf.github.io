@@ -1,0 +1,140 @@
+/* Global */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #cccccc;
+  background-image: url(asset/img/dota2.jpg);
+
+}
+
+/* Halaman Utama */
+#header-main {
+  /* padding-top: 40px; */
+  display: block;
+  text-align: center;
+  margin: 150px;
+  border: 4px solid #5BC0BE ;
+  color: white;
+}
+
+#nick-form {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+
+  text-align: center;
+  width: 100%;
+  padding: 5rem;
+}
+
+#nick-form form {
+  text-align: start;
+}
+
+#nick-label {
+  padding: 2px 5px;
+  border: 3px dotted white;
+  color: white;
+}
+
+#button-start {
+  text-align: center;
+  margin-left: 1.25rem;
+  align-self: flex-end;
+
+}
+
+#button-start button {
+  padding: 4px 12px;
+}
+
+
+/* Halaman Pertanyaan */
+#boxSoal {
+  display: block;
+}
+
+#judul-soal {
+  display: block;
+  text-align: center;
+  font-size: 50px;
+  /* margin: 150px; */
+  margin-bottom: 100px;
+  border: 4px solid #5BC0BE ;
+  color: white;
+}
+
+#text-pertanyaan {
+  /* display: inline; */
+  text-align: center;
+  background-color: rgba(0, 0, 0, .7);
+  border: 6px dotted #D1E3DD;
+  font-size: 3rem;
+  color: white;
+  margin-bottom: 50px;
+}
+
+.pilihan {
+  box-sizing:border-box;
+  margin: 8px;
+  color: white;
+  padding: 5px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.pilihan label {
+  box-sizing: border-box;
+  border: 2px solid  #2B4570;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.pilihan label:hover {
+  background-color: rgba(255, 255, 255, .2);
+}
+
+#button-next {
+  text-align: center;
+  margin-left: 1.25rem;
+  align-self: flex-end;
+}
+
+#button-next button {
+  padding: 4px 12px;
+}
+
+
+/* Halaman Hasil */
+#judul-hasil {
+  color: aqua;
+  /* float: right; */
+  text-align: center;
+
+}
+
+#image-hasil {
+  /* display: flex; */
+  /* float: right; */
+  display: block;
+  margin: 0 auto;
+  height: 420px;
+
+}
+
+#text-hasil {
+text-align: center;
+font-size: 40px;
+color: #97DFFC;
+margin-top: 100px;
+}
+
+#button-back-to-home {
+  flex: auto;
+  text-align: center;
+  margin-top: 20px;
+}
